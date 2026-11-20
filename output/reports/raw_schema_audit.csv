@@ -1,0 +1,18 @@
+,dtype,missing_count,missing_pct,unique_values,sample_value
+Year,int64,0,0.0,11,1970
+Constituency,str,0,0.0,1216,NA-1 - Peshawar
+NA,str,0,0.0,272,NA-1
+Province,str,34,0.14,5,KPK
+District,str,0,0.0,148,Peshawar
+Division,str,0,0.0,32,Peshawar
+Party,str,2,0.01,475,JI
+Candidate Name,str,3354,13.64,17715,Hussain Ahmad Qazi
+Regions 11,str,1,0.0,11,Peshawar Valley
+Regions 12,str,0,0.0,12,Peshawar Valley
+Regions 5,str,1,0.0,5,KPK
+Registered Voters,float64,21780,88.59,2567,148708.0
+Rejected Votes,float64,21954,89.3,2042,1388.0
+Six Parties,str,40,0.16,7,Religious Parties
+Turnout N,float64,21958,89.31,2189,62.15401996
+Zones 20,str,0,0.0,21,Zone-3 (Peshawar Valley) Peshawar & Mardan Divisions
+Votes,float64,193,0.79,10890,2475.0

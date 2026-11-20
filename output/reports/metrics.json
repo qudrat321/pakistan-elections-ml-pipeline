@@ -1,0 +1,52 @@
+{
+  "raw_rows": 24585,
+  "cleaned_rows": 24324,
+  "duplicates_removed": 66,
+  "rows_dropped_missing_core": 195,
+  "missing_cells_pct_before": 16.59,
+  "missing_cells_pct_after": 0.24,
+  "overall_validation_pass_rate": 1.0,
+  "validation_checks": [
+    {
+      "check": "not_null:Year,Constituency,Party,Province,Votes",
+      "passed": 24324,
+      "total": 24324,
+      "pass_rate": 1.0
+    },
+    {
+      "check": "numeric_types:Year,Registered Voters,Rejected Votes,Turnout N,Votes,log_votes",
+      "passed": 6,
+      "total": 6,
+      "pass_rate": 1.0
+    },
+    {
+      "check": "range:Year[1970,2024]",
+      "passed": 24324,
+      "total": 24324,
+      "pass_rate": 1.0
+    },
+    {
+      "check": "range:Turnout N[0.0,100.0]",
+      "passed": 23774,
+      "total": 23774,
+      "pass_rate": 1.0
+    },
+    {
+      "check": "range:Votes[0.0,10000000.0]",
+      "passed": 24324,
+      "total": 24324,
+      "pass_rate": 1.0
+    },
+    {
+      "check": "unique:Year,Constituency,Party,Candidate Name,Votes",
+      "passed": 20957,
+      "total": 20957,
+      "pass_rate": 1.0
+    }
+  ],
+  "generated_charts": [
+    "01_turnout_by_year.png",
+    "02_top_parties_2024_votes.png",
+    "03_log_votes_distribution.png"
+  ]
+}
