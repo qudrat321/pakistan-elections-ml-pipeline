@@ -434,8 +434,11 @@ def build_handbook():
     story.append(
         Paragraph(
             "The raw dataset is stored at <font name='Courier'>data/raw/elections.csv</font>. "
-            "It compiles 24,585 candidate records spanning 11 general elections: 1970, 1977, 1988, 1990, 1993, 1997, 2002, 2008, 2013, 2018, and 2024. "
-            "This historical corpus represents official Election Commission of Pakistan (ECP) gazette returns digitized across five decades.",
+            "It is officially sourced from <b>Open Data Pakistan</b> (Resource ID: <font name='Courier'>9e385875-efa0-4f58-aa8c-c2bac028b086</font>): "
+            "<br/><font color='#0284c7'><u>https://opendata.com.pk/dataset/pakistan-general-elections-1970-2024/resource/9e385875-efa0-4f58-aa8c-c2bac028b086</u></font>. "
+            "<br/>This public dataset compiles 24,585 candidate records spanning 11 national general elections: "
+            "1970, 1977, 1988, 1990, 1993, 1997, 2002, 2008, 2013, 2018, and 2024. "
+            "The corpus represents digitized official Election Commission of Pakistan (ECP) gazette returns across five decades.",
             body,
         )
     )
@@ -1007,7 +1010,7 @@ def build_handbook():
         [Paragraph("Primary Intended Task", tbl_text), Paragraph("Pre-election binary classification of seat winner likelihood (is_winner in {0, 1})", tbl_text)],
         [Paragraph("Target Users", tbl_text), Paragraph("Political analysts, electoral researchers, campaign planning data teams", tbl_text)],
         [Paragraph("Input Features (7)", tbl_text), Paragraph("Registered Voters, num_candidates_in_seat, Province, Regions 5, Zones 20, Party, Six Parties", tbl_text)],
-        [Paragraph("Training Dataset", tbl_text), Paragraph("15,879 candidate records spanning 1970 to 2013 general elections (9 elections)", tbl_text)],
+        [Paragraph("Training Dataset", tbl_text), Paragraph("15,879 records (1970–2013) from Open Data Pakistan (Resource ID: 9e385875-efa0-4f58-aa8c-c2bac028b086)", tbl_text)],
         [Paragraph("Evaluation Dataset", tbl_text), Paragraph("8,445 candidate records spanning 2018 and 2024 general elections (held-out test set)", tbl_text)],
         [Paragraph("Performance Metrics", tbl_text), Paragraph("PR-AUC: 0.5958 | ROC-AUC: 0.8903 | Accuracy: 89.70% | Macro F1: 0.7020", tbl_text)],
         [Paragraph("Primary Known Limitation", tbl_text), Paragraph("Vulnerable to sudden institutional symbol bans (e.g., 2024 PTI-backed independents)", tbl_text)],

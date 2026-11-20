@@ -18,6 +18,7 @@ A leakage-free tabular machine learning pipeline, REST API backend, and interact
 - 🌐 **Live Web Application (24/7):** [https://pakistan-elections-ml-pipeline.onrender.com](https://pakistan-elections-ml-pipeline.onrender.com)
 - 📚 **Interactive Swagger REST API Docs:** [https://pakistan-elections-ml-pipeline.onrender.com/docs](https://pakistan-elections-ml-pipeline.onrender.com/docs)
 - 🩺 **API Health Check Endpoint:** [https://pakistan-elections-ml-pipeline.onrender.com/health](https://pakistan-elections-ml-pipeline.onrender.com/health)
+- 📊 **Official Dataset Source:** [Open Data Pakistan (1970–2024 Elections Resource)](https://opendata.com.pk/dataset/pakistan-general-elections-1970-2024/resource/9e385875-efa0-4f58-aa8c-c2bac028b086)
 - 📄 **Comprehensive IEEE Master Handbook (PDF):** [docs/Pakistan_Elections_ML_Pipeline_Documentation.pdf](docs/Pakistan_Elections_ML_Pipeline_Documentation.pdf)
 
 ---
@@ -38,6 +39,13 @@ Predicting election outcomes in Pakistan presents unique challenges due to multi
 - **FastAPI REST Service:** Production-ready backend with asynchronous lifespan model loading, Pydantic input validation, category metadata discovery, and batch CSV inference streaming.
 - **Interactive Single-Page UI:** Zero-dependency modern frontend with preset scenarios, dynamic dropdowns, confidence gauges, and batch scoring tools.
 - **Containerized Deployment:** Ready for local development, Hugging Face Spaces (Docker SDK), or Render (`port 7860`).
+
+### Official Dataset Provenance:
+- **Data Portal:** Open Data Pakistan (Government of Pakistan / Open Data Initiative)
+- **Dataset Title:** *Pakistan General Elections 1970–2024*
+- **Resource ID:** `9e385875-efa0-4f58-aa8c-c2bac028b086`
+- **Direct Dataset Link:** [https://opendata.com.pk/dataset/pakistan-general-elections-1970-2024/resource/9e385875-efa0-4f58-aa8c-c2bac028b086](https://opendata.com.pk/dataset/pakistan-general-elections-1970-2024/resource/9e385875-efa0-4f58-aa8c-c2bac028b086)
+- **Scope & Coverage:** 24,585 candidate records spanning 11 national general elections (1970, 1977, 1988, 1990, 1993, 1997, 2002, 2008, 2013, 2018, and 2024) based on official Election Commission of Pakistan (ECP) gazette returns.
 
 ---
 
