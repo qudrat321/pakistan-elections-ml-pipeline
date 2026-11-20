@@ -26,5 +26,5 @@ COPY frontend/ ./frontend/
 # Expose port 7860 (Standard default for Hugging Face Spaces Docker SDK & Render)
 EXPOSE 7860
 
-# Run FastAPI backend via Uvicorn
-CMD ["uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "7860"]
+# Run FastAPI backend via Uvicorn (supports Render $PORT and Hugging Face 7860)
+CMD ["sh", "-c", "uvicorn src.api:app --host 0.0.0.0 --port ${PORT:-7860}"]

@@ -12,6 +12,16 @@ pinned: false
 
 A leakage-free tabular machine learning pipeline, REST API backend, and interactive web application for classifying Pakistan National Assembly seat winners and estimating pre-election win probabilities.
 
+---
+
+### 🚀 Live Public Deployment & Interactive Simulator
+- 🌐 **Live Web Application (24/7):** [https://pakistan-elections-ml-pipeline.onrender.com](https://pakistan-elections-ml-pipeline.onrender.com)
+- 📚 **Interactive Swagger REST API Docs:** [https://pakistan-elections-ml-pipeline.onrender.com/docs](https://pakistan-elections-ml-pipeline.onrender.com/docs)
+- 🩺 **API Health Check Endpoint:** [https://pakistan-elections-ml-pipeline.onrender.com/health](https://pakistan-elections-ml-pipeline.onrender.com/health)
+- 📄 **Comprehensive IEEE Master Handbook (PDF):** [docs/Pakistan_Elections_ML_Pipeline_Documentation.pdf](docs/Pakistan_Elections_ML_Pipeline_Documentation.pdf)
+
+---
+
 **Author:** Qudrat Ullah  
 **Roll No (Trainee ID):** TRN-2026-000363  
 **Date:** 2026-11-20  
