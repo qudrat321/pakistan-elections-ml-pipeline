@@ -1,0 +1,7 @@
+Province,total_candidates,actual_winners,predicted_winners,error_rate_pct
+KPK,1346,94,3,7.06
+Punjab,4302,284,240,6.6
+Unknown,34,2,0,5.88
+Balochistan,695,31,2,4.46
+Sindh,1955,121,78,3.02
+ICT,113,3,0,2.65

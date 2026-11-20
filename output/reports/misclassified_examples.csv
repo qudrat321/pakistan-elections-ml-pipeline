@@ -1,0 +1,26 @@
+Year,Constituency,Province,Party,Registered Voters,num_candidates_in_seat,is_winner,predicted_winner,win_probability,is_error
+2018,NA-43 - Tribal Area,KPK,MMA,226627.0,18,0,1,0.788,True
+2024,NA-121 - Lahore 5,Punjab,PML-N,556557.0,14,0,1,0.7877,True
+2018,NA-131 - Lahore,Punjab,PML-N,364213.0,15,0,1,0.7877,True
+2018,NA-140 - Kasur,Punjab,PML-N,477211.0,12,0,1,0.7799,True
+2024,NA-133 - Kasur 3,Punjab,PML-N,579328.0,18,0,1,0.7755,True
+2024,NA-129 - Lahore 13,Punjab,PML-N,528414.0,19,0,1,0.7755,True
+2024,NA-137 - Okara 3,Punjab,PML-N,529049.0,34,0,1,0.7712,True
+2018,NA-67 - Jhelum,Punjab,PML-N,404212.0,15,0,1,0.732,True
+2018,NA-62 - Rawalpindi,Punjab,PML-N,452930.0,12,0,1,0.7207,True
+2024,NA-52 - Rawalpindi 2,Punjab,PML-N,338955.0,19,0,1,0.7177,True
+2018,NA-61 - Rawalpindi,Punjab,PML-N,367782.0,19,0,1,0.7177,True
+2024,NA-122 - Lahore 6,Punjab,PML-N,239745.0,21,0,1,0.7163,True
+2018,NA-118 - Nankana Sahib,Punjab,PML-N,371715.0,10,0,1,0.7096,True
+2018,NA-130 - Lahore,Punjab,PML-N,483914.0,10,0,1,0.7096,True
+2018,NA-53 - Islamabad,Punjab,PML-N,312142.0,30,0,1,0.708,True
+2018,NA-230 - Badin,Sindh,PPP,371879.0,7,0,1,0.7072,True
+2024,NA-81 - Gujranwala 5,Punjab,PML-N,526124.0,17,0,1,0.7019,True
+2024,NA-63 - Gujrat 2,Punjab,PML-N,527959.0,14,0,1,0.7019,True
+2018,NA-87 - Hafizabad,Punjab,PML-N,684447.0,15,0,1,0.7019,True
+2018,NA-85 - Mandi Bahauddin,Punjab,PML-N,510468.0,13,0,1,0.7012,True
+2018,NA-69 - Gujrat,Punjab,PML-N,467384.0,13,0,1,0.7012,True
+2018,NA-82 - Gujranwala,Punjab,PML-N,441801.0,19,0,1,0.6867,True
+2024,NA-74 - Sialkot 5,Punjab,PML-N,539393.0,18,0,1,0.6867,True
+2018,NA-205 - Ghotki,Sindh,PPP,339699.0,9,0,1,0.6856,True
+2024,NA-66 - Wazirabad,Punjab,PML-N,646872.0,27,0,1,0.6814,True

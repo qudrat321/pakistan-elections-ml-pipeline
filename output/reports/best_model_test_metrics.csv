@@ -1,0 +1,9 @@
+,value
+Best_Model,Gradient Boosting
+Train_Rows (1970-2013),15879
+Test_Rows (2018-2024),8445
+Test_F1,0.4476
+Test_Precision,0.5944
+Test_Recall,0.3589
+Test_ROC_AUC,0.8689
+Test_PR_AUC,0.3939

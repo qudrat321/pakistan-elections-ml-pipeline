@@ -1,0 +1,8 @@
+feature,importance_mean,importance_std
+Party,0.2474,0.0063
+Six Parties,0.0955,0.0117
+Regions 5,0.085,0.0039
+Zones 20,0.0374,0.0041
+num_candidates_in_seat,0.0254,0.0061
+Registered Voters,0.0167,0.0079
+Province,0.0098,0.0048
